@@ -22,6 +22,6 @@ before_script:
  deploy:
    skip_cleanup: true # prevents travis from deleting the build
   provider: heroku
-  app: my-fire-app-test # see README
+  app: my-fire-app # see README
   api_key:
     secure:
